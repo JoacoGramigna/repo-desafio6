@@ -1,0 +1,15 @@
+$color1: aqua;
+$color2: violet;
+
+header{
+    background-color: $color1;
+    nav{
+        text-align: center;
+        a{
+            font-family: sans-serif;
+            &:hover{
+                color: $color2;
+            }
+        }
+    }
+}
